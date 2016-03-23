@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #FAFAFA;
+}
+
+body {
+  background-image:  linear-gradient(to bottom, #4CAF50, #4CAF50 40vh, #FAFAFA 40vh);
+  background-size:   100% 100vh;
+  background-repeat: no-repeat;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main {
+  max-width: 960px;
+  padding-top: calc(40vh - 49px);
+}
+
+.main > .mdl-card {
+  margin-top: 0;
+  min-height: 0;
+}
